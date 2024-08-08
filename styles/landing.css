@@ -68,8 +68,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 12.0302067642vh;
-  right: 7.6004216416vw;
+  top: 39.8920874141vh;
+  right: 71.1741293124vw;
   background-color: rgb(250, 239, 255);
   border-radius: 50%;
   z-index: 1;
@@ -90,8 +90,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 21.1274030694vh;
-  right: 88.9488838546vw;
+  top: 35.095619394vh;
+  right: 2.9142766322vw;
   background-color: rgb(250, 239, 255);
   border-radius: 50%;
   z-index: 1;
@@ -112,8 +112,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 13.922543647vh;
-  right: 84.7042809884vw;
+  top: 25.1901318083vh;
+  right: 18.509084695vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -134,8 +134,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 26.7124601875vh;
-  right: 43.4143185574vw;
+  top: 19.1970743258vh;
+  right: 58.1533016281vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -156,8 +156,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 13.2963438907vh;
-  right: 84.5300351492vw;
+  top: 5.176047877vh;
+  right: 45.1357579788vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -178,8 +178,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 1.871040275vh;
-  right: 38.6997256509vw;
+  top: 4.5230806542vh;
+  right: 96.8085429125vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -200,8 +200,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 4.9354777232vh;
-  right: 0.2007274413vw;
+  top: 42.8704971392vh;
+  right: 68.5308487623vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -222,8 +222,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 26.0479173691vh;
-  right: 48.281738101vw;
+  top: 46.788533526vh;
+  right: 24.9199226111vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -244,8 +244,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 11.2093646648vh;
-  right: 98.4442316453vw;
+  top: 37.4697211708vh;
+  right: 59.5799263682vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -266,12 +266,232 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 6.2066109739vh;
-  right: 96.0962636277vw;
+  top: 42.5775790333vh;
+  right: 13.3962836002vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
   animation: twinkle 3.2s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__11 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 21.1974422982vh;
+  right: 63.3970880073vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 2.5s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__12 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 24.9334649641vh;
+  right: 98.1379441775vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 2.7s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__13 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 14.4087285574vh;
+  right: 75.23093925vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 2.9s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__14 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 18.7123346521vh;
+  right: 54.7620261016vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 3.1s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__15 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 1.1985615314vh;
+  right: 26.6995847573vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 3.3s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__16 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 40.2804649916vh;
+  right: 65.345366216vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 3.5s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__17 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 38.1720658294vh;
+  right: 22.4402599429vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 3.7s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__18 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 6.2296839057vh;
+  right: 3.3101071415vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 3.9s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__19 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 36.5705579668vh;
+  right: 5.6840454366vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 4.1s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__20 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 1.1658012492vh;
+  right: 76.8141880762vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 4.3s infinite;
 }
 @keyframes twinkle {
   0% {

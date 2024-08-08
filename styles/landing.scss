@@ -89,7 +89,7 @@ body{
         position: absolute;
         height: $star-size;
         width: $star-size;
-        top: random() * 30vh;
+        top: random() * 50vh;
         right: random() * 100vw;
         background-color: rgb(250, 239, 255);
         border-radius: 50%;
@@ -113,7 +113,7 @@ body{
         position: absolute;
         height: $star-size;
         width: $star-size;
-        top: random() * 30vh;
+        top: random() * 50vh;
         right: random() * 100vw;
         background-color: rgb(250, 239, 255);
         border-radius: 50%;
@@ -137,7 +137,7 @@ body{
         position: absolute;
         height: $star-size;
         width: $star-size;
-        top: random() * 30vh;
+        top: random() * 50vh;
         right: random() * 100vw;
         background-color: $star-color;
         border-radius: 50%;
@@ -161,7 +161,7 @@ body{
         position: absolute;
         height: $star-size;
         width: $star-size;
-        top: random() * 30vh;
+        top: random() * 50vh;
         right: random() * 100vw;
         background-color: $star-color;
         border-radius: 50%;
@@ -185,7 +185,7 @@ body{
         position: absolute;
         height: $star-size;
         width: $star-size;
-        top: random() * 30vh;
+        top: random() * 50vh;
         right: random() * 100vw;
         background-color: $star-color;
         border-radius: 50%;
@@ -209,7 +209,7 @@ body{
         position: absolute;
         height: $star-size;
         width: $star-size;
-        top: random() * 30vh;
+        top: random() * 50vh;
         right: random() * 100vw;
         background-color: $star-color;
         border-radius: 50%;
@@ -232,7 +232,7 @@ body{
         position: absolute;
         height: $star-size;
         width: $star-size;
-        top: random() * 30vh;
+        top: random() * 50vh;
         right: random() * 100vw;
         background-color: $star-color;
         border-radius: 50%;
@@ -256,7 +256,7 @@ body{
         position: absolute;
         height: $star-size;
         width: $star-size;
-        top: random() * 30vh;
+        top: random() * 50vh;
         right: random() * 100vw;
         background-color: $star-color;
         border-radius: 50%;
@@ -280,7 +280,7 @@ body{
         position: absolute;
         height: $star-size;
         width: $star-size;
-        top: random() * 30vh;
+        top: random() * 50vh;
         right: random() * 100vw;
         background-color: $star-color;
         border-radius: 50%;
@@ -304,7 +304,7 @@ body{
         position: absolute;
         height: $star-size;
         width: $star-size;
-        top: random() * 30vh;
+        top: random() * 50vh;
         right: random() * 100vw;
         background-color: $star-color;
         border-radius: 50%;
@@ -324,4 +324,245 @@ body{
         }
     }
 
-}
+    &__11 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 50vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 2.5s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__12 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 50vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 2.7s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__13 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 50vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 2.9s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__14 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 50vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 3.1s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__15 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 50vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 3.3s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__16 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 50vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 3.5s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__17 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 50vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 3.7s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__18 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 50vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 3.9s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__19 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 50vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 4.1s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__20 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 50vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 4.3s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    }
+
+
