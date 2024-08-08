@@ -1,0 +1,36 @@
+// @use 'variables' as *;
+
+@mixin tablet {
+  @media screen and (min-width: $tablet-breakpoint) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $desktop-breakpoint) {
+    @content;
+  }
+}
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin reset-list {
+	list-style: none;
+	text-decoration: none;
+}
+
+@mixin no-spaces{
+	margin: 0;
+	padding: 0;
+}
+ 
+@mixin mobile-page-header{
+	font-size: 24px;
+	font-weight: 700;
+	padding: 32px;
+}
+

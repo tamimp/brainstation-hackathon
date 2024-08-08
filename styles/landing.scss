@@ -1,0 +1,303 @@
+@use "./partials/mixins" as *;
+@use "./partials/typography" as *;
+
+
+// Variables
+$star-color: rgb(215, 222, 234);
+$star-size: .25rem;
+
+
+body{
+    @include no-spaces();
+    padding-bottom: 0;
+    margin-bottom: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(24,24,157,1) 46%, rgba(0,212,255,1) 100%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title {
+    display: flex;
+    &__text {
+        color: white;
+    }
+}
+
+.television {
+    @include no-spaces;
+    
+    &__screen {
+        position: relative;
+        top: 26.5vw;
+        left: 38.5vw;
+        width: 14vw;
+        border-radius: 1rem;
+    }
+    &__img{
+        max-width: 100%;
+    }
+
+    &__button{ 
+        position:relative;
+        top: 23vw;
+        left: 48.5vw;
+        height: 2vw;
+        width: 2vw;
+        background-color: #ff0000;
+        border-radius: 50%;
+        display: inline-block;
+
+        &:hover {
+            background-color: #00ff00;
+            transform: scale(1.1);
+        }
+    }
+
+    &__background{
+        width: 100vw;
+    }
+}
+
+
+
+.star{
+    &__1 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 30vh;
+        right: random() * 100vw;
+        background-color: rgb(250, 239, 255);
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 4s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    
+    &__2 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 30vh;
+        right: random() * 100vw;
+        background-color: rgb(250, 239, 255);
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 1.5s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    
+    &__3 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 30vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 2s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    
+    &__4 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 30vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 2.25s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    
+    &__5 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 30vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 1.75s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    
+    &__6 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 30vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 3s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    &__7 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 30vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 3.5s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    
+    &__8 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 30vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 2.75s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    
+    &__9 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 30vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 2.8s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+    
+    &__10 {
+        position: absolute;
+        height: $star-size;
+        width: $star-size;
+        top: random() * 30vh;
+        right: random() * 100vw;
+        background-color: $star-color;
+        border-radius: 50%;
+        z-index: 1;
+        animation: twinkle 3.2s infinite;
+    
+        @keyframes twinkle {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+}

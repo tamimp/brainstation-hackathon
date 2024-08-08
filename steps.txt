@@ -1,0 +1,39 @@
+1. create a webpage
+
+-----------static stuff-----------
+2. needs a gradient background
+3. needs a png of a planet on lower half
+4. needs a png of a sitting astronaut
+5. needs a television
+
+
+-----------js-----------
+6. needs an api that will project a changing image onto the tv screen ON CLICK of a png (remote control)
+    needs max with and max height
+    position absolute
+
+//create a js code that listens for when a button is clicked and then
+displays a visual image in the television screen using the api.
+    //
+
+
+bonus. stars in background that when u hover will unveil a fun fact (can be hard coded in, or js)
+
+
+
+
+
+Tami: set up graphics using html and css
+Jenani: responsive design 
+Abraham: 
+Abdul: Working on api and api key
+
+
+
+
+
+
+Account Email: justcabyr@gmail.com
+Account ID: ebc3f59c-96aa-4ffb-983a-8d16df5181a0
+
+API Key: dpeDZnCwP7h6XkTIJVnaujpDXOihooKySEhW5owl

@@ -1,0 +1,276 @@
+@font-face {
+  font-family: "Righteous", sans-serif;
+  src: url("../Assets/fonts/Righteous-Regular.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(270deg, rgb(2, 0, 36) 0%, rgb(24, 24, 157) 46%, rgb(0, 212, 255) 100%);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.title {
+  display: flex;
+}
+.title__text {
+  color: white;
+}
+
+.television {
+  margin: 0;
+  padding: 0;
+}
+.television__screen {
+  position: relative;
+  top: 26.5vw;
+  left: 38.5vw;
+  width: 14vw;
+  border-radius: 1rem;
+}
+.television__img {
+  max-width: 100%;
+}
+.television__button {
+  position: relative;
+  top: 23vw;
+  left: 48.5vw;
+  height: 2vw;
+  width: 2vw;
+  background-color: #ff0000;
+  border-radius: 50%;
+  display: inline-block;
+}
+.television__button:hover {
+  background-color: #00ff00;
+  transform: scale(1.1);
+}
+.television__background {
+  width: 100vw;
+}
+
+.star__1 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 3.9878147415vh;
+  right: 3.2393446755vw;
+  background-color: rgb(250, 239, 255);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 4s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__2 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 18.8503517856vh;
+  right: 49.1371038662vw;
+  background-color: rgb(250, 239, 255);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 1.5s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__3 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 23.926645642vh;
+  right: 84.5688373041vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 2s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__4 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 25.6316803302vh;
+  right: 5.8350733207vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 2.25s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__5 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 29.9439560564vh;
+  right: 98.1182384685vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 1.75s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__6 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 1.0655641988vh;
+  right: 63.0291771218vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 3s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__7 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 0.090604341vh;
+  right: 34.1890701187vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 3.5s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__8 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 25.9181184112vh;
+  right: 30.0353315709vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 2.75s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__9 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 25.0431661764vh;
+  right: 83.4352267509vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 2.8s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.star__10 {
+  position: absolute;
+  height: 0.25rem;
+  width: 0.25rem;
+  top: 1.1043521903vh;
+  right: 69.4304760998vw;
+  background-color: rgb(215, 222, 234);
+  border-radius: 50%;
+  z-index: 1;
+  animation: twinkle 3.2s infinite;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=landing.css.map */
