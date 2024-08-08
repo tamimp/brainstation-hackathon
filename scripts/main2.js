@@ -86,19 +86,9 @@ const fetchImage = async () => {
       console.error(error);
     }
   };
-//   const imageData = await fetchImage();
+
   
-  const getImagePng = async () => {
-    try {
-  
-        console.log('stat', response.data[3])
-      return response.data;
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-  };
-  
-  const imagePng = await getImagePng();
+  const imagePng = await fetchImage();
   // console.log(imagePng)
   spaceImage.src = imagePng[3];
 
@@ -111,7 +101,6 @@ function handleSubmit(event) {
 
     
     fetchImage();
-    getImagePng();
     // event.target.reset();
 
 }
