@@ -15,23 +15,33 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.title {
-  display: flex;
-}
 .title__text {
-  color: white;
+  padding-top: 2rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
 }
 
 .television {
   margin: 0;
   padding: 0;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+@media screen and (min-width: 1024px) {
+  .television {
+    bottom: -30%;
+  }
 }
 .television__screen {
   position: relative;
-  top: 26.5vw;
+  top: 27vw;
   left: 38.5vw;
   width: 14vw;
-  border-radius: 1rem;
+  border-radius: 3vw;
 }
 .television__img {
   max-width: 100%;
@@ -58,8 +68,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 3.9878147415vh;
-  right: 3.2393446755vw;
+  top: 13.6351228595vh;
+  right: 73.369799854vw;
   background-color: rgb(250, 239, 255);
   border-radius: 50%;
   z-index: 1;
@@ -80,8 +90,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 18.8503517856vh;
-  right: 49.1371038662vw;
+  top: 26.1981358768vh;
+  right: 66.5518416035vw;
   background-color: rgb(250, 239, 255);
   border-radius: 50%;
   z-index: 1;
@@ -102,8 +112,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 23.926645642vh;
-  right: 84.5688373041vw;
+  top: 11.8107351479vh;
+  right: 39.3314411295vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -124,8 +134,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 25.6316803302vh;
-  right: 5.8350733207vw;
+  top: 0.1175569096vh;
+  right: 78.9479690494vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -146,8 +156,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 29.9439560564vh;
-  right: 98.1182384685vw;
+  top: 3.2530672664vh;
+  right: 78.3422077615vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -168,8 +178,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 1.0655641988vh;
-  right: 63.0291771218vw;
+  top: 6.8036218984vh;
+  right: 52.0379476535vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -190,8 +200,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 0.090604341vh;
-  right: 34.1890701187vw;
+  top: 23.64271792vh;
+  right: 39.4859934601vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -212,8 +222,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 25.9181184112vh;
-  right: 30.0353315709vw;
+  top: 13.3576884682vh;
+  right: 46.8312090772vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -234,8 +244,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 25.0431661764vh;
-  right: 83.4352267509vw;
+  top: 15.5754539003vh;
+  right: 64.7132267157vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;
@@ -256,8 +266,8 @@ body {
   position: absolute;
   height: 0.25rem;
   width: 0.25rem;
-  top: 1.1043521903vh;
-  right: 69.4304760998vw;
+  top: 22.1769381937vh;
+  right: 41.0042646542vw;
   background-color: rgb(215, 222, 234);
   border-radius: 50%;
   z-index: 1;

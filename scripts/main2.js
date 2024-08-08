@@ -74,16 +74,23 @@ const fetchImage = async () => {
           Authorization: `Bearer ${apiKey}`,
         },
       });
-      return response.data;
+      const imageUrl = response.data.collection.items[0].href;
+      try {
+        
+          const response2 = await axios.get(imageUrl);
+            return response2.data;
+      } catch (error) {
+        
+      }
     } catch (error) {
       console.error(error);
     }
   };
+//   const imageData = await fetchImage();
   
-  
-  const getImagePng = async (imageUrl) => {
+  const getImagePng = async () => {
     try {
-      const response = await axios.get(imageUrl);
+  
         console.log('stat', response.data[3])
       return response.data;
     } catch (error) {
@@ -91,25 +98,20 @@ const fetchImage = async () => {
     }
   };
   
-
+  const imagePng = await getImagePng();
   // console.log(imagePng)
+  spaceImage.src = imagePng[3];
+
 
 
 //Abraham
-async function handleSubmit(event) {
+function handleSubmit(event) {
     // Jenani
     event.preventDefault();
 
-    try {
-      const imageData = await fetchImage();
-      const imageUrl = imageData.collection.items[0].href;
-      const imagePng = await getImagePng(imageUrl);
-      spaceImage.src = imagePng[3]; 
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-
-
+    
+    fetchImage();
+    getImagePng();
     // event.target.reset();
 
 }

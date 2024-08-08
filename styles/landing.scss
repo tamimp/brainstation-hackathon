@@ -6,6 +6,10 @@
 $star-color: rgb(215, 222, 234);
 $star-size: .25rem;
 
+// ✨ Responsive Design ✨ //
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1024px;
+
 
 body{
     @include no-spaces();
@@ -17,21 +21,41 @@ body{
 }
 
 .title {
-    display: flex;
     &__text {
-        color: white;
+        padding-top: 2rem;
+        text-align: center;
+        color: #fff;
+        text-shadow:
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          0 0 42px #0fa,
+          0 0 82px #0fa,
+          0 0 92px #0fa,
+          0 0 102px #0fa,
+          0 0 151px #0fa;
     }
 }
 
 .television {
     @include no-spaces;
-    
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+
+    @include desktop {
+        bottom: -30%;
+    }
+
+
     &__screen {
         position: relative;
-        top: 26.5vw;
+        top: 27vw;
         left: 38.5vw;
         width: 14vw;
-        border-radius: 1rem;
+        border-radius: 3vw;
     }
     &__img{
         max-width: 100%;
